@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+header {
+    background: #ff6600;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+#search {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 1em;
+    background: white;
+}
+#results {
+    padding: 1em;
+}
+.flight {
+    background: white;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 500px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
